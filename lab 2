@@ -1,20 +1,21 @@
 #include <stdio.h>
 int main()
 {
-    int g1, ch1, g2, ch2, cgpa;
+    float g1, ch1, g2, ch2, cgpa;
     printf("Grade in course-1: ");
-    scanf("%d", &g1);
+    scanf("%f", &g1);
     printf("Credit hour of course-1: ");
-    scanf("%d", &ch1);
+    scanf("%f", &ch1);
     printf("Grade in course-2: ");
-    scanf("%d", &g2);
+    scanf("%f", &g2);
     printf("Credit hour of course-2: ");
-    scanf("%d", &ch2);
-    cgpa = ((g1*ch1)+(g2*ch2))/(g1+g2);
-    printf("CGPA = ");
+    scanf("%f", &ch2);
+    cgpa = ((g1*ch1)+(g2*ch2))/(ch1+ch2);
+    printf("CGPA = %.2f\n", cgpa);
     return 0;
 
 }
+
 
 
 
