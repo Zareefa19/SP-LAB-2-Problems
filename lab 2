@@ -1,0 +1,45 @@
+#include <stdio.h>
+int main()
+{
+    int g1, ch1, g2, ch2, cgpa;
+    printf("Grade in course-1: ");
+    scanf("%d", &g1);
+    printf("Credit hour of course-1: ");
+    scanf("%d", &ch1);
+    printf("Grade in course-2: ");
+    scanf("%d", &g2);
+    printf("Credit hour of course-2: ");
+    scanf("%d", &ch2);
+    cgpa = ((g1*ch1)+(g2*ch2))/(g1+g2);
+    printf("CGPA = ");
+    return 0;
+
+}
+
+
+
+
+
+
+#include <stdio.h>
+int main()
+{
+    int id, wh, sph;
+    float salary;
+    printf("Input the Employees ID: ");
+    scanf("%d", &id);
+    printf("Input the working hrs: ");
+    scanf("%d", &wh);
+    printf("Salary amount/hr: ");
+    scanf("%d", &sph);
+    printf("Employees ID = %d\n", id);
+    salary = sph*wh;
+    printf("Salary = %.2f\n", salary);
+    return 0;
+}
+
+
+
+
+
+
