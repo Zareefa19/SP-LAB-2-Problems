@@ -43,3 +43,68 @@ int main()
 
 
 
+#include <stdio.h>
+int main()
+
+{
+    int dist;
+    float fuel, average;
+    printf("Input total distance in km: ");
+    scanf("%d", &dist);
+    printf("Input total fuel spent in litres: ");
+    scanf("%f", &fuel);
+    average = dist/fuel;
+    printf("Average consumption (km/lt) %.3f\n", average);
+    return 0;
+}
+
+
+
+
+
+
+
+#include <stdio.h>
+int main()
+{
+    int x1, y1, x2, y2, dis;
+    printf("Input x1: ");
+    scanf("%d", &x1);
+    printf("Input y1: ");
+    scanf("%d", &y1);
+    printf("Input x2: ");
+    scanf("%d", &x2);
+    printf("Input y2: ");
+    scanf("%d", &y2);
+    dis = ((x1-x2)²+(y1-y2)²)½;
+    printf("Distance between the said points: %d\n", dis);
+    return 0;
+}
+
+
+
+
+
+
+
+#include <stdio.h>
+int main()
+{
+    printf("        *\n");
+    printf("  \n");
+    printf("      * * *\n");
+    printf("  \n");
+    printf("    * * * * *\n");
+    printf("  \n");
+    printf("  * * * * * * *\n");
+    printf("  \n");
+    printf("* * * * * * * * *\n");
+    return 0;
+}
+
+
+
+
+
+
+
